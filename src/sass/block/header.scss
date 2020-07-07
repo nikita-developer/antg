@@ -283,14 +283,28 @@
 
 @media (max-width: 480px) {
     .header {
-        padding-right: 15px;
-        padding-left: 15px;
+        padding-right: 30px;
+        padding-left: 30px;
     }
 
-    .header__logo > a {
-        width: 70px;
-        height: 70px;
-        font-size: 16px;
+    .header__logo {
+        &_footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & > a {
+                border-radius: 10px;
+            }
+        }
+
+        & > a {
+            width: 70px;
+            height: 70px;
+            margin-right: 0;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
     }
 
     .header__login {

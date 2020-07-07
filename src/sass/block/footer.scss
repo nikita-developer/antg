@@ -61,6 +61,29 @@
 }
 
 @media (max-width: 480px) {
+    .footer__body {
+        justify-content: space-between;
+    }
+
+    .footer__item {
+        width: 30%;
+        margin-right: 0;
+        margin-left: 0;
+
+        &:first-child {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            max-width: 100%;
+            text-align: center;
+        }
+
+        &:last-child {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
     .footer__btn {
         padding: 10px 35px;
         font-size: 14px;
