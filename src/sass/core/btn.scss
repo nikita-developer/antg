@@ -16,6 +16,12 @@
     border-radius: 10px;
     transition: 0.3s;
 
+    &:hover {
+        color: #fff;
+        text-decoration: none;
+        background-color: #180d5b;
+    }
+
     &_blue {
         color: #fff;
         background-color: #180d5b;
@@ -24,12 +30,6 @@
             color: #180d5b;
             background-color: #fff;
         }
-    }
-
-    &:hover {
-        color: #fff;
-        text-decoration: none;
-        background-color: #180d5b;
     }
 }
 

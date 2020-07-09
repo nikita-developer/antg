@@ -1,8 +1,8 @@
 
 .section {
-    padding-top: 165px;
+    padding-top: 82px;
     padding-right: 225px;
-    padding-bottom: 165px;
+    padding-bottom: 82px;
     padding-left: 225px;
 
     &_preorder {
@@ -140,6 +140,10 @@
     }
 
     & + .section__slider {
+        margin-top: 80px;
+    }
+
+    & + .section__brand {
         margin-top: 80px;
     }
 }
